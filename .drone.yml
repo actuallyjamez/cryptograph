@@ -8,3 +8,7 @@ steps:
       - cd src
       - npm install
       - npm test
+
+trigger:
+  branch:
+    - master
